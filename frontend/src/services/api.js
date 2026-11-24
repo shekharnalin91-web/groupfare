@@ -1,5 +1,4 @@
-const BASE_URL = '/api/v1';
-
+const BASE_URL = 'https://groupfare-backend.onrender.com/api/v1';
 async function fetchJSON(endpoint, options = {}) {
   const config = {
     headers: {
